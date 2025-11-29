@@ -1,0 +1,8 @@
+=== Book Store Automation Report ===
+TC-BS-01 : PASS
+TC-BS-02 : PASS
+TC-BS-03 : FAIL
+TC-BS-04 : FAIL
+TC-BS-05 : FAIL
+
+Execution Time : 210.57s
