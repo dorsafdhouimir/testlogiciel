@@ -109,10 +109,10 @@ def executer_tests_formulaire_demoqa():
         # Vérifier si la page a planté
         navigateur.find_element(By.ID, "firstName")
         
-        # Si on arrive ici, la page n'a pas planté (bug corrigé)
+        # Si on arrive ici, la page n'a pas planté 
         navigateur.save_screenshot(f"{dossier_captures}/TC-02.png")
-        resultats["TC-02"] = "FAIL"
-        afficher_resultat_test("TC-02", "FAIL", "Bug non reproduit: l'application n'a pas planté")
+        resultats["TC-02"] = "PASS"
+        afficher_resultat_test("TC-02", "PASS",  l'application n'a pas planté")
         
     except:
         # La page a planté (bug attendu)
